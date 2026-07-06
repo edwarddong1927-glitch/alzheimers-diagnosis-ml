@@ -38,7 +38,7 @@ cd alzheimers-diagnosis-ml
 4. Update the file path in the notebook's data-loading cell to point to your local CSV file.
 5. Open the notebook and run all cells:
    ```bash
-   jupyter notebook alzheimers-diagnosis-prediction.ipynb
+   jupyter notebook alzheimers-diagnosis-prediction (1).ipynb
    ```
 
 ## Project Structure
