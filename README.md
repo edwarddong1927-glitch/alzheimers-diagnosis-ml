@@ -27,8 +27,8 @@ This project uses the [Alzheimer's Disease Dataset](https://www.kaggle.com/datas
 ```
 1. Clone this repository:
    ```bash
-  git clone https://github.com/edwarddong1927-glitch/alzheimers-diagnosis-ml.git
-   cd alzheimers-diagnosis-ml
+git clone https://github.com/edwarddong1927-glitch/alzheimers-diagnosis-ml.git
+cd alzheimers-diagnosis-ml
    ``'
    2. Install the required packages:
 ```bash
