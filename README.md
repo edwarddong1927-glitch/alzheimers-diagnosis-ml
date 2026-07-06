@@ -12,11 +12,7 @@ An exploratory machine learning project predicting Alzheimer's diagnosis from a 
 
 ## Model Results Summary
 
-| Model / Feature Set | Accuracy | ROC-AUC | Interpretation |
-|---|---:|---:|---|
-| XGBoost, all features | ~95% | ~0.94 | High performance, but likely affected by diagnostic-overlap features |
-| XGBoost, cognitive/functional features removed | lower | ~0.48 | Little independent signal from demographic/lifestyle/medical-history variables |
-| Tuned XGBoost | similar validation performance | similar | Reduced overfitting gap, but did not solve 
+
 
 ## Dataset
 
