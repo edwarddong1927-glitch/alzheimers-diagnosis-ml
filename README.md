@@ -18,7 +18,7 @@ This project uses the [Alzheimer's Disease Dataset](https://www.kaggle.com/datas
 ```
 1. Clone this repository:
    ```bash
-   git https://github.com/edwarddong1927-glitch/alzheimers-diagnosis-ml.git
+  git clone https://github.com/edwarddong1927-glitch/alzheimers-diagnosis-ml.git
    cd alzheimers-diagnosis-ml
    ``'
    2. Install the required packages:
@@ -29,7 +29,7 @@ This project uses the [Alzheimer's Disease Dataset](https://www.kaggle.com/datas
 4. Update the file path in the notebook's data-loading cell to point to your local CSV file.
 5. Open the notebook and run all cells:
    ```bash
-   jupyter notebook alzheimers_diagnosis_prediction.ipynb
+   jupyter notebook alzheimers-diagnosis-prediction.ipynb
    ```
 
 ## Project Structure
