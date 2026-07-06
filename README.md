@@ -1,6 +1,6 @@
 # Alzheimer's Diagnosis Prediction — ML Exploratory Project
 
-An exploratory machine learning project predicting Alzheimer's diagnosis from a public clinical dataset using Random Forest and XGBoost classifiers. The initial model achieved ~95% accuracy, but a follow-up investigation revealed this was driven almost entirely by cognitive/functional assessment features (MMSE, FunctionalAssessment, MemoryComplaints, BehavioralProblems, ADL) — when these were removed, performance dropped to ~0.48 ROC-AUC (essentially random), suggesting these features are closely tied to the diagnostic criteria itself rather than independent risk factors. This reframes the project's key contribution from "a predictive model" to a demonstration of how important it is to check for data leakage in clinical ML.
+An exploratory machine learning project predicting Alzheimer's diagnosis from a public clinical dataset using Random Forest and XGBoost classifiers. The initial model achieved ~95% accuracy, but a follow-up investigation revealed this was driven almost entirely by cognitive/functional assessment features (MMSE, FunctionalAssessment, MemoryComplaints, BehavioralProblems, ADL) when these were removed, performance dropped to ~0.48 ROC-AUC (essentially random), suggesting these features are closely tied to the diagnostic criteria itself rather than independent risk factors. This reframes the project's key contribution from "a predictive model" to a demonstration of how important it is to check for data leakage in clinical ML.
 
 ## Key Findings
 
