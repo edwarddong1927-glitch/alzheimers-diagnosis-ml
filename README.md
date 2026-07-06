@@ -15,15 +15,16 @@ This project uses the [Alzheimer's Disease Dataset](https://www.kaggle.com/datas
 
 ## How to Run
 
+```
 1. Clone this repository:
    ```bash
    git https://github.com/edwarddong1927-glitch/alzheimers-diagnosis-ml.git
    cd alzheimers-diagnosis-ml
-   ```
-2. Install the required packages:
-   ```bash
-   pip install numpy pandas matplotlib scikit-learn xgboost shap
-   ```
+   ``'
+   2. Install the required packages:
+```bash
+   pip install -r requirements.txt
+```
 3. Download the dataset from Kaggle (link above) and place it in the project directory.
 4. Update the file path in the notebook's data-loading cell to point to your local CSV file.
 5. Open the notebook and run all cells:
