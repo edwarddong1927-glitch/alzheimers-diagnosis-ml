@@ -9,6 +9,15 @@ An exploratory machine learning project predicting Alzheimer's diagnosis from a 
 - **Overfitting check**: Training accuracy of 1.0 vs. validation accuracy of ~0.95 indicated overfitting; hyperparameter tuning (RandomizedSearchCV) narrowed this gap without meaningfully changing validation performance.
 - **Interpretability**: SHAP values were used to understand feature contributions to individual predictions.
 
+
+## Model Results Summary
+
+| Model / Feature Set | Accuracy | ROC-AUC | Interpretation |
+|---|---:|---:|---|
+| XGBoost, all features | ~95% | ~0.94 | High performance, but likely affected by diagnostic-overlap features |
+| XGBoost, cognitive/functional features removed | lower | ~0.48 | Little independent signal from demographic/lifestyle/medical-history variables |
+| Tuned XGBoost | similar validation performance | similar | Reduced overfitting gap, but did not solve 
+
 ## Dataset
 
 This project uses the [Alzheimer's Disease Dataset](https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset) by Rabie El Kharoua, available on Kaggle. The dataset is not included in this repository — download it from Kaggle and place `alzheimers_disease_data.csv` in the same directory as the notebook (or update the file path in the notebook to match where you saved it).
