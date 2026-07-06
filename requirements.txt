@@ -4,3 +4,5 @@ matplotlib
 scikit-learn
 xgboost
 shap
+kagglehub
+jupyter
